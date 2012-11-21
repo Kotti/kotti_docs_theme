@@ -1,6 +1,3 @@
-kotti_docs_theme - A Twitter Bootstrap Theme for Sphinx
-=======================================================
-
 This theme is based on `sphinx-bootstrap`_ by `Scotch Media`_ and modified for
 documentation of `Kotti`_ and Kotti add-ons.
 
