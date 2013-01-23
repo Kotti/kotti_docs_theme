@@ -4,7 +4,7 @@ from setuptools import find_packages
 from setuptools import setup
 
 name = 'kotti_docs_theme'
-version = '0.1'
+version = '0.1.1'
 
 here = os.path.abspath(os.path.dirname(__file__))
 try:

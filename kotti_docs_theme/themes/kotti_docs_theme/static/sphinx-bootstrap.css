@@ -131,3 +131,11 @@ tr > td:nth-child(2) {
 .sphinxsidebar {
     padding-top: 30px;
 }
+
+.class dt, .function dt {
+    font-size: 150%;
+}
+
+.method dt, .attribute dt {
+    font-size: 125%;
+}
