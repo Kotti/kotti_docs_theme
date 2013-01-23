@@ -132,10 +132,10 @@ tr > td:nth-child(2) {
     padding-top: 30px;
 }
 
-.class dt, .function dt {
+.class>dt, .function>dt {
     font-size: 150%;
 }
 
-.method dt, .attribute dt {
+.method>dt, .attribute>dt {
     font-size: 125%;
 }
