@@ -4,7 +4,7 @@ from setuptools import find_packages
 from setuptools import setup
 
 name = 'kotti_docs_theme'
-version = '0.1.1'
+version = '0.2dev'
 
 here = os.path.abspath(os.path.dirname(__file__))
 try:
@@ -29,7 +29,7 @@ setup(
     keywords='sphinx theme kotti twitter bootstrap',
     author='Andreas Kaiser',
     author_email='disko@binary-punks.com',
-    url='https://github.com/disko/kotti_docs_theme',
+    url='https://github.com/Kotti/kotti_docs_theme',
     license='BSD',
     packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
     include_package_data=True,
