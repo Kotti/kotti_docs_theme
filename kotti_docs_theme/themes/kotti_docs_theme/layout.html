@@ -49,6 +49,7 @@
                     {%- endif %}
                 {%- endif %}
             </ul>
+            {%- if theme_github_user and theme_github_repo %}
             <p>&nbsp;</p>
             <ul class="nav nav-list well">
                 <li class="nav-header">GitHub</li>
@@ -71,16 +72,26 @@
                             width="94px" height="20px"></iframe>
                 </li>
             </ul>
+            {%- endif %}
+
+            {%- if theme_mailing_list_url or theme_irc_channel_url %}
             <p>&nbsp;</p>
             <ul class="nav nav-list well">
                 <li class="nav-header">Getting Help</li>
+                {%- if theme_mailing_list_url %}
                 <li>
                     <a href="{{ theme_mailing_list_url }}">Mailing list</a>
                 </li>
+                {%- endif %}
+                {%- if theme_irc_channel_url %}
                 <li>
                     <a href="{{ theme_irc_channel_url }}">IRC</a>
                 </li>
+                {%- endif %}
             </ul>
+            {%- endif %}
+
+            {%- if theme_twitter_username %}
             <p>&nbsp;</p>
             <ul class="nav nav-list well">
                 <li class="nav-header">Social</li>
@@ -100,6 +111,7 @@
                     <g:plusone size="medium"></g:plusone>
                 </li>
             </ul>
+            {%- endif %}
         </div>
     {%- endif %}
 {%- endmacro -%}
